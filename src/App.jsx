@@ -18,7 +18,7 @@ export default function App() {
       <BrowserRouter>
       <Navbar isLogin={isLogin} onLogin={() => setIsLogin(true)} onLogout={() => setIsLogin(false)}/>
         <Routes>
-          <Route path='/' element={<Home/>}/>
+          <Route path='/Shopdude' element={<Home/>}/>
           <Route path='/categories' element={<Categories/>}/>
           <Route path='/products' element={<Products/>}/>
           <Route path='/cart' element={<Cart/>}/>
